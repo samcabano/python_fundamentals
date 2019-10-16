@@ -1,5 +1,5 @@
 # Fundamentals of Programming in Python
-Attached are examples of small projects written in Python, all of which demonstrating basic Python fundamentals. 
+Attached are examples of small projects written in Python, all of which demonstrating basic Python fundamentals. Contents of the portfolio are organized by the primary fundamental explored, and link to the raw code of each project. Each of the following pieces were created to practice and learn a focused concept of Python.
 
 ## Contents
 
@@ -40,8 +40,25 @@ Attached are examples of small projects written in Python, all of which demonstr
     - [Store Your Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_1.py): Propts user to enter favorite number, storing it in a file.
     - [Display Your Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_2.py): Reads the file and prints the user's favorite number.
 
+## Summary
+
+The most comprehensive project I completed in Unit 1 was the creation of a Password Manager, which incorporates each major concept of the course thusfar. I am proud of the code I produced for this assignment, as I feel it displays the most complex functions of anything we have practiced in Unit 1. This project taught me the importance of having organized and properly commented code, as it required the definition of several variables and functions. To complete this project, I drew a flowchart indicating each desired function of the program, then implemented a function one by one. During the process, I learned it is important to run your code between each change, otherwise it is difficult to find the source of a coding error. 
+
+On the other hand, I would remove cipher code listed under "Functions and Dictionaries", as it is redundant of the encryption and decryption code used in later projects.
+
+'''
+• Of all the items included, which one was the hardest for you?
+• What makes your strongest piece different from your weakest piece?
+• What goals did you set for yourself? How well did you accomplish them?
+• Why did you select this piece of work?
+• What was particularly important to you during the process of creating this work?
+• How does this relate to what you have learned before?
+• Which piece would you most like to improve? Why?
+• What is the one thing you would like someone to notice about your portfolio? Why?
+• Do you feel that this collection of work really reflects your abilities and what you have achieved so far this year? Why or why not?
+'''
 
 <p align="center">
-  <a href="https://samcabano.github.io/cabano-profile/">HOME</a>
+  <a href="https://samcabano.github.io/cabano-profile/">Return to ABOUT ME</a>
 </p>
 
