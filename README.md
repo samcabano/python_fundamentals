@@ -42,7 +42,6 @@ Attached are examples of small projects written in Python, all of which demonstr
 
 
 <p align="center">
-  [Home](https://samcabano.github.io/cabano-profile/)
+  <a href="https://samcabano.github.io/cabano-profile/">HOME</a>
 </p>
-
 
