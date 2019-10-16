@@ -40,4 +40,9 @@ Attached are examples of small projects written in Python, all of which demonstr
     - [Store Your Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_1.py): Propts user to enter favorite number, storing it in a file.
     - [Display Your Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_2.py): Reads the file and prints the user's favorite number.
 
-[Home](https://samcabano.github.io/cabano-profile/)
+
+<p align="center">
+  [Home](https://samcabano.github.io/cabano-profile/)
+</p>
+
+
