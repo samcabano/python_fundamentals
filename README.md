@@ -5,11 +5,11 @@ Attached are examples of small projects written in Python, all of which demonstr
 
 - ### Introduction
 
-    - [Hello Turtle](Module 1 - Introduction/Hello_Turtle.py): Explain project
+    - [Hello Turtle](https://github.com/samcabano/python_fundamentals/blob/master/Module%201%20-%20Introduction/Hello_Turtle.py): Explain project
 
 - ### Flow Control
 
-    - [How Many Trees?](Module 2 - Flow Control/How_Many_Trees.py): 
+    - [How Many Trees?](https://github.com/samcabano/python_fundamentals/blob/master/Module%202%20-%20Flow%20Control/How_Many_Trees.py): 
     
 - ### Conditionals and Lists
 
