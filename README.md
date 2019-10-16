@@ -5,16 +5,16 @@ Attached are examples of small projects written in Python, all of which demonstr
 
 - ### Introduction
 
-    - [Hello Turtle](https://github.com/samcabano/python_fundamentals/blob/master/Module%201%20-%20Introduction/Hello_Turtle.py): Simple program using turtle graphics system.
+        - [Hello Turtle](https://github.com/samcabano/python_fundamentals/blob/master/Module%201%20-%20Introduction/Hello_Turtle.py): Simple program using turtle graphics system.
 
 - ### Flow Control
 
-    - [How Many Trees?](https://github.com/samcabano/python_fundamentals/blob/master/Module%202%20-%20Flow%20Control/How_Many_Trees.py): Calculates the number of trees in Sacramento using flow control.
+        - [How Many Trees?](https://github.com/samcabano/python_fundamentals/blob/master/Module%202%20-%20Flow%20Control/How_Many_Trees.py): Calculates the number of trees in Sacramento using flow control.
     
 - ### Conditionals and Lists
 
-    - [Password Generator](https://github.com/samcabano/python_fundamentals/blob/master/Module%203%20-%20%20Conditionals%20and%20Lists/Password_Generator.py): Generates two random passwords utilizing lists, flow control, and conditionals.
-    - [Rock, Paper, Scissors](https://github.com/samcabano/python_fundamentals/blob/master/Module%203%20-%20%20Conditionals%20and%20Lists/Rock_Paper_Scissor.py): Simple game that utilizes conditionals to determine the winner. 
+        - [Password Generator](https://github.com/samcabano/python_fundamentals/blob/master/Module%203%20-%20%20Conditionals%20and%20Lists/Password_Generator.py): Generates two random passwords utilizing lists, flow control, and conditionals.
+        - [Rock, Paper, Scissors](https://github.com/samcabano/python_fundamentals/blob/master/Module%203%20-%20%20Conditionals%20and%20Lists/Rock_Paper_Scissor.py): Simple game that utilizes conditionals to determine the winner. 
 
 - ### More Lists, and Introduction to Functions
 
