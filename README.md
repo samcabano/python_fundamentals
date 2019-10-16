@@ -5,16 +5,16 @@ Attached are examples of small projects written in Python, all of which demonstr
 
 - ### Introduction
 
-        - [Hello Turtle](https://github.com/samcabano/python_fundamentals/blob/master/Module%201%20-%20Introduction/Hello_Turtle.py): Simple program using turtle graphics system.
+     - [Hello Turtle](https://github.com/samcabano/python_fundamentals/blob/master/Module%201%20-%20Introduction/Hello_Turtle.py): Simple program using turtle graphics system.
 
 - ### Flow Control
 
-        - [How Many Trees?](https://github.com/samcabano/python_fundamentals/blob/master/Module%202%20-%20Flow%20Control/How_Many_Trees.py): Calculates the number of trees in Sacramento using flow control.
+     - [How Many Trees?](https://github.com/samcabano/python_fundamentals/blob/master/Module%202%20-%20Flow%20Control/How_Many_Trees.py): Calculates the number of trees in Sacramento using flow control.
     
 - ### Conditionals and Lists
 
-        - [Password Generator](https://github.com/samcabano/python_fundamentals/blob/master/Module%203%20-%20%20Conditionals%20and%20Lists/Password_Generator.py): Generates two random passwords utilizing lists, flow control, and conditionals.
-        - [Rock, Paper, Scissors](https://github.com/samcabano/python_fundamentals/blob/master/Module%203%20-%20%20Conditionals%20and%20Lists/Rock_Paper_Scissor.py): Simple game that utilizes conditionals to determine the winner. 
+     - [Password Generator](https://github.com/samcabano/python_fundamentals/blob/master/Module%203%20-%20%20Conditionals%20and%20Lists/Password_Generator.py): Generates two random passwords utilizing lists, flow control, and conditionals.
+     - [Rock, Paper, Scissors](https://github.com/samcabano/python_fundamentals/blob/master/Module%203%20-%20%20Conditionals%20and%20Lists/Rock_Paper_Scissor.py): Simple game that utilizes conditionals to determine the winner. 
 
 - ### More Lists, and Introduction to Functions
 
@@ -27,17 +27,17 @@ Attached are examples of small projects written in Python, all of which demonstr
     - [Substitution Cipher](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Substitution_Cipher.py): Decrypts a secret message bkftazdaowe to pythonrocks utilizing dictionaries and conditionals.
     - [Caesar Cipher](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Ceasar_Cipher.py): Encrypts plain text by shifting the alphabet 13 letters.
     - [Caesar Cipher Rotation Possibilities](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Ceasar_Cypher_Rotations.py): Decrypts ciphered text by printing all 25 possible rotations.  
-    - [Scrambled Key Decryption](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Scrambled_Key_Decryption.py): Decrypts
-    - [Scrambled Key Encryption](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Scrambled_Key_Encryption.py):
-    - [Encryption and Decryption](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Encryption_Decryption.py):
+    - [Scrambled Key Decryption](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Scrambled_Key_Decryption.py): Decrypts ciphered text against a key of scrambled alphabet.
+    - [Scrambled Key Encryption](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Scrambled_Key_Encryption.py): Encrypts plain text by using a key of scrambled alphabet.
+    - [Encryption and Decryption](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Encryption_Decryption.py): Prompts the user to enter a key, gives the user the option to encrypt plain text or decrypt a coded message.
 
 - ### Strings and Exception Handling
 
-    - [Password Manager](https://github.com/samcabano/python_fundamentals/blob/master/Module%206%20-%20Strings%20and%20Exception%20Handling/Password_Manager.py): 
+    - [Password Manager](https://github.com/samcabano/python_fundamentals/blob/master/Module%206%20-%20Strings%20and%20Exception%20Handling/Password_Manager.py): Utilizes multiple functions, dictionaries, lists, strings, and conditionals to store account passwords, encrypt and generate passwords, update passwords, and copy passwords to clipboard. 
     
 - ### Reading and Writing Files
 
-    - [Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_1.py): 
-    - [Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_2.py): 
+    - [Store Your Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_1.py): Propts user to enter favorite number, storing it in a file.
+    - [Display Your Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_2.py): Reads the file and prints the user's favorite number.
 
 [Home](https://samcabano.github.io/cabano-profile/)
