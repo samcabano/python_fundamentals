@@ -1,8 +1,8 @@
 # Fundamentals of Programming in Python
-Attached are examples of small projects written in Python, all of which demonstrating basic Python fundamentals. Contents of the portfolio are organized by the primary fundamental explored, and link to the raw code of each project. Each of the following pieces were created to practice and learn a focused concept of Python, and are organized chronologically.
+Attached are examples of small projects written in Python, all of which demonstrating basic Python fundamentals. Contents of the portfolio are organized chronologically by the primary fundamental explored, and link to the raw code of each project. Each of the following pieces were created to practice and learn a focused concept of Python.
 
 ## Unit 1 Portfolio
-[Contents](https://github.com/samcabano/python_fundamentals)
+Complete collection: [Unit 1 Contents](https://github.com/samcabano/python_fundamentals)
 
 - ### Introduction
 
@@ -10,7 +10,7 @@ Attached are examples of small projects written in Python, all of which demonstr
 
 - ### Flow Control
 
-     - [How Many Trees?](https://github.com/samcabano/python_fundamentals/blob/master/Module%202%20-%20Flow%20Control/How_Many_Trees.py): Calculates the number of trees in Sacramento using flow control.
+     - [How Many Trees?](https://github.com/samcabano/python_fundamentals/blob/master/Module%202%20-%20Flow%20Control/How_Many_Trees.py): Calculates the number of trees in Sacramento, exploring the concept of flow control.
     
 - ### Conditionals and Lists
 
@@ -25,9 +25,9 @@ Attached are examples of small projects written in Python, all of which demonstr
 
 - ### Functions and Dictionaries
 
-    - [Substitution Cipher](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Substitution_Cipher.py): Decrypts a secret message bkftazdaowe to pythonrocks utilizing dictionaries and conditionals.
+    - [Substitution Cipher](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Substitution_Cipher.py): Decrypts the string 'bkftazdaowe' to 'pythonrocks' utilizing dictionaries and conditionals.
     - [Caesar Cipher](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Ceasar_Cipher.py): Encrypts plain text by shifting the alphabet 13 letters.
-    - [Caesar Cipher Rotation Possibilities](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Ceasar_Cypher_Rotations.py): Decrypts ciphered text by printing all 25 possible rotations.  
+    - [Caesar Cipher Rotation Possibilities](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Ceasar_Cypher_Rotations.py): Decrypts ciphered text by printing all 25 possible rotations of a Caesar Cipher.  
     - [Scrambled Key Decryption](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Scrambled_Key_Decryption.py): Decrypts ciphered text against a key of scrambled alphabet.
     - [Scrambled Key Encryption](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Scrambled_Key_Encryption.py): Encrypts plain text by using a key of scrambled alphabet.
     - [Encryption and Decryption](https://github.com/samcabano/python_fundamentals/blob/master/Module%205%20-%20Functions%20and%20Dictionaries/Encryption_Decryption.py): Prompts the user to enter a key, gives the user the option to encrypt plain text or decrypt a coded message.
@@ -38,16 +38,16 @@ Attached are examples of small projects written in Python, all of which demonstr
     
 - ### Reading and Writing Files
 
-    - [Store Your Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_1.py): Propts user to enter favorite number, storing it in a file.
+    - [Store Your Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_1.py): Prompts user to enter their favorite number, storing it in a file.
     - [Display Your Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_2.py): Reads the file and prints the user's favorite number.
 
 ## Analysis and Reflection
 
 The most comprehensive and challenging project I completed in Unit 1 was the creation of a Password Manager, which incorporates each major concept of the course thusfar. I am proud of the code I produced for this assignment, as I feel it displays the most complex functions of anything we have practiced in Unit 1. This project taught me the importance of having organized code with detailed comments, as it required the definition of several variables and functions. To complete this project, I drew a flowchart indicating each desired function of the program, then implemented a function one by one. During the process, I learned it is important to run your code between each change, otherwise it is difficult to find the source of a coding error.
 
-On the other hand, I would remove cipher code listed under "Functions and Dictionaries", as it is redundant of the encryption and decryption code used in later projects. While writing code for various encryption and decryption exercises, I found it challenging to decide between the use of dictionaries, lists, or strings to assign encryption key values. By practicing with each format, I found the use of strings for this task allowed for more effective and dynamic code.
+On the other hand, I would remove the cipher code listed under "Functions and Dictionaries", as it is redundant of the encryption and decryption code used in later projects. While writing code for various encryption and decryption exercises, I found it challenging to decide between the use of dictionaries, lists, or strings to assign encryption key values. By practicing with each format, I found the use of strings for this task allowed for more effective and dynamic code.
 
-##### For example:
+#### For example:
 
 A dictionary was used in my Substitution Cipher:
 ```python
@@ -102,4 +102,3 @@ Altogether, Python has proven to be a straightforward and easy-to-use programmin
 <p align="center">
   <a href="https://samcabano.github.io/cabano-profile/">Return to ABOUT ME</a>
 </p>
-
