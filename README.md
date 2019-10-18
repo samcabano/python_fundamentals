@@ -68,7 +68,6 @@ A list was used in my Caesar Cipher to shift the index of a phrase by a specifie
 ```python
 def encrypt(original, shift):
 	output = []
-	crypt = []
 	
 	alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 
 		    'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 
@@ -77,7 +76,6 @@ def encrypt(original, shift):
 	for letter in original.lower():
 		index = alphabet.index(letter)
 		newIndex = (index + shift) % 26
-		crypt.append(newIndex)
 		result = alphabet[newIndex]
 		output.append(result)
 	return''.join (output)
