@@ -10,7 +10,7 @@ Complete collection: [Unit 1 Repository](https://github.com/samcabano/python_fun
 
 #### Flow Control
 
-   - [How Many Trees?](https://github.com/samcabano/python_fundamentals/blob/master/Module%202%20-%20Flow%20Control/How_Many_Trees.py): Calculates the number of trees in Sacramento, explores flow control concepts.
+   - [How Many Trees?](https://github.com/samcabano/python_fundamentals/blob/master/Module%202%20-%20Flow%20Control/How_Many_Trees.py): Calculates the number of trees in Sacramento, explores flow control.
     
 #### Conditionals and Lists
 
