@@ -42,12 +42,60 @@ Attached are examples of small projects written in Python, all of which demonstr
 
 ## Summary
 
-The most comprehensive project I completed in Unit 1 was the creation of a Password Manager, which incorporates each major concept of the course thusfar. I am proud of the code I produced for this assignment, as I feel it displays the most complex functions of anything we have practiced in Unit 1. This project taught me the importance of having organized and properly commented code, as it required the definition of several variables and functions. To complete this project, I drew a flowchart indicating each desired function of the program, then implemented a function one by one. During the process, I learned it is important to run your code between each change, otherwise it is difficult to find the source of a coding error. 
+The most comprehensive and challenging project I completed in Unit 1 was the creation of a Password Manager, which incorporates each major concept of the course thusfar. I am proud of the code I produced for this assignment, as I feel it displays the most complex functions of anything we have practiced in Unit 1. This project taught me the importance of having organized code with detailed comments, as it required the definition of several variables and functions. To complete this project, I drew a flowchart indicating each desired function of the program, then implemented a function one by one. During the process, I learned it is important to run your code between each change, otherwise it is difficult to find the source of a coding error.
 
-On the other hand, I would remove cipher code listed under "Functions and Dictionaries", as it is redundant of the encryption and decryption code used in later projects.
+On the other hand, I would remove cipher code listed under "Functions and Dictionaries", as it is redundant of the encryption and decryption code used in later projects. While writing code for various encryption and decryption exercises, I found it challenging to decide between the use of dictionaries, lists, or strings to assign encryption key values. By practicing with each, I found the use of strings for this task allowed for more effective and dynamic code.
 
-'''
-• Of all the items included, which one was the hardest for you?
+#### For example:
+
+A dictionary was used in my Substitution Cipher:
+```python
+key = {"a" : "o", "b" : "p", "c" : "q", "d" : "r", "e" : "s", "f" : "t", "g" : "u", "h" : "v", "i" : "w", "j" : "x", "k" : "y", "l" : "z", "m" : "a", "n" : "b", "o" : "c", "p" : "d", "q" : "e", "r" : "f", "s" : "g", "t" : "h", "u" : "i", "v" : "j", "w" : "k", "x" : "l", "y" : "m", "z" : "n"}
+
+def decode(str, key):
+    result = ""
+    for i in str:
+        result = result + key[i]
+    return result
+```
+A list was used in my Caesar Cipher to shift the index of a phrase by a specified number:
+```python
+def encrypt(original, shift):
+	output = []
+	crypt = []
+	
+	alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+	for letter in original.lower():
+		index = alphabet.index(letter)
+		newIndex = (index + shift) % 26
+		crypt.append(newIndex)
+		result = alphabet[newIndex]
+		output.append(result)
+	return''.join (output)
+
+phrase = 'THEquickbrownfoxjumpsoverthelAZydog'
+shift = 13
+
+print('Original text:', phrase)
+print('Shift:', 13)
+code = encrypt(phrase, shift)
+print('Ciphered text:', code)
+```
+Strings were used in my Scrambled Key projects to compare corresponding index values between the alphabet and a scrambled key:
+```python
+alphabet = ' abcdefghijklmnopqrstuvwxyz'
+key = 'mwgp bdzxrylacsokjfhtnueivq'
+
+def encrypt(string):
+    result = ""
+    for letter in string:
+        if letter in alphabet:
+            index = alphabet.index(letter)
+            result = result + key[index]
+    return result
+```
+```
 • What makes your strongest piece different from your weakest piece?
 • What goals did you set for yourself? How well did you accomplish them?
 • Why did you select this piece of work?
@@ -56,7 +104,7 @@ On the other hand, I would remove cipher code listed under "Functions and Dictio
 • Which piece would you most like to improve? Why?
 • What is the one thing you would like someone to notice about your portfolio? Why?
 • Do you feel that this collection of work really reflects your abilities and what you have achieved so far this year? Why or why not?
-'''
+```
 
 <p align="center">
   <a href="https://samcabano.github.io/cabano-profile/">Return to ABOUT ME</a>
