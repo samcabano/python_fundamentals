@@ -95,7 +95,7 @@ def encrypt(string):
             result = result + key[index]
     return result
 ```
-While each example effectively encrypts or decrypts a string, the use of strings allowed more flexibility in changing the key or accepting a user input of a key. Therefore, I found this code to be an improvement on the previous strategies. Because of this experience, I feel my Password Manager is better formulated than older pieces because it contains improved code over the course of learning more Python techniques. For this reason, I feel my earlier pieces can be enhanced and expanded upon.
+While each example effectively encrypts or decrypts a string, the use of strings as a key allowed more flexibility in changing the key or accepting a user input of a key. Therefore, I found this code to be an improvement on the previous strategies. Because of this experience, I feel my Password Manager is better formulated than older pieces because it contains improved code over the course of learning more Python techniques. For this reason, I feel my earlier pieces can be enhanced and expanded upon.
 
 Altogether, Python has proven to be a straightforward and easy-to-use programming languange. In my opinion, it is equally, if not more, versatile and comprehensive than prior languages I have learned. 
 
