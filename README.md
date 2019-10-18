@@ -99,6 +99,6 @@ While each example effectively encrypts or decrypts a string, the use of strings
 
 Altogether, Python has proven to be a straightforward and easy-to-use programming languange. In my opinion, it is equally, if not more, versatile and comprehensive than prior languages I have learned. 
 
-<h3 align="center">
+<h4 align="center">
   <a href="https://samcabano.github.io/cabano-profile/">Return to ABOUT ME</a>
-</h3>
+</h4>
