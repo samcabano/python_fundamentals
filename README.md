@@ -1,10 +1,6 @@
 # Fundamentals of Python
 Attached are examples of small projects written in Python, all of which demonstrating basic Python fundamentals. Contents of the portfolio are organized chronologically by the primary fundamental explored, and link to the raw code of each project. Each of the following pieces were created to practice and learn a focused concept of Python.
 
-<p align="center">
-  <a href="https://samcabano.github.io/cabano-profile/">Return to ABOUT ME</a>
-</p>
-
 ## Unit 1 Portfolio
 Complete collection: [Unit 1 Contents](https://github.com/samcabano/python_fundamentals)
 
