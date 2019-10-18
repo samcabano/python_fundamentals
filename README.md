@@ -47,7 +47,7 @@ The most comprehensive and challenging project I completed in Unit 1 was the cre
 
 On the other hand, I would remove the cipher code listed under "Functions and Dictionaries", as it is redundant of the encryption and decryption code used in later projects. While writing code for various encryption and decryption exercises, I found it challenging to decide between the use of dictionaries, lists, or strings to assign encryption key values. By practicing with each format, I found the use of strings for this task allowed for more effective and dynamic code.
 
-#### For example:
+##### For example:
 
 A dictionary was used in my Substitution Cipher:
 ```python
