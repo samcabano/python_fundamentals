@@ -1,7 +1,8 @@
 # Fundamentals of Programming in Python
-Attached are examples of small projects written in Python, all of which demonstrating basic Python fundamentals. Contents of the portfolio are organized by the primary fundamental explored, and link to the raw code of each project. Each of the following pieces were created to practice and learn a focused concept of Python.
+Attached are examples of small projects written in Python, all of which demonstrating basic Python fundamentals. Contents of the portfolio are organized by the primary fundamental explored, and link to the raw code of each project. Each of the following pieces were created to practice and learn a focused concept of Python, and are organized chronologically.
 
-## Contents
+## Unit 1 Portfolio
+[Contents](https://github.com/samcabano/python_fundamentals)
 
 - ### Introduction
 
@@ -40,19 +41,24 @@ Attached are examples of small projects written in Python, all of which demonstr
     - [Store Your Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_1.py): Propts user to enter favorite number, storing it in a file.
     - [Display Your Favorite Number](https://github.com/samcabano/python_fundamentals/blob/master/Module%207%20-%20Reading%20and%20Writing%20Files/Favorite_Number_2.py): Reads the file and prints the user's favorite number.
 
-## Summary
+## Analysis and Reflection
 
 The most comprehensive and challenging project I completed in Unit 1 was the creation of a Password Manager, which incorporates each major concept of the course thusfar. I am proud of the code I produced for this assignment, as I feel it displays the most complex functions of anything we have practiced in Unit 1. This project taught me the importance of having organized code with detailed comments, as it required the definition of several variables and functions. To complete this project, I drew a flowchart indicating each desired function of the program, then implemented a function one by one. During the process, I learned it is important to run your code between each change, otherwise it is difficult to find the source of a coding error.
 
-On the other hand, I would remove cipher code listed under "Functions and Dictionaries", as it is redundant of the encryption and decryption code used in later projects. While writing code for various encryption and decryption exercises, I found it challenging to decide between the use of dictionaries, lists, or strings to assign encryption key values. By practicing with each, I found the use of strings for this task allowed for more effective and dynamic code.
+On the other hand, I would remove cipher code listed under "Functions and Dictionaries", as it is redundant of the encryption and decryption code used in later projects. While writing code for various encryption and decryption exercises, I found it challenging to decide between the use of dictionaries, lists, or strings to assign encryption key values. By practicing with each format, I found the use of strings for this task allowed for more effective and dynamic code.
 
-#### For example:
+##### For example:
 
 A dictionary was used in my Substitution Cipher:
 ```python
-key = {"a" : "o", "b" : "p", "c" : "q", "d" : "r", "e" : "s", "f" : "t", "g" : "u", "h" : "v", "i" : "w", "j" : "x", "k" : "y", "l" : "z", "m" : "a", "n" : "b", "o" : "c", "p" : "d", "q" : "e", "r" : "f", "s" : "g", "t" : "h", "u" : "i", "v" : "j", "w" : "k", "x" : "l", "y" : "m", "z" : "n"}
+key = {"a" : "o", "b" : "p", "c" : "q", "d" : "r", "e" : "s", 
+	"f" : "t", "g" : "u", "h" : "v", "i" : "w", "j" : "x", 
+	"k" : "y", "l" : "z", "m" : "a", "n" : "b", "o" : "c", 
+	"p" : "d", "q" : "e", "r" : "f", "s" : "g", "t" : "h", 
+	"u" : "i", "v" : "j", "w" : "k", "x" : "l", "y" : "m", 
+	"z" : "n"}
 
-def decode(str, key):
+def decrypt(str, key):
     result = ""
     for i in str:
         result = result + key[i]
@@ -64,7 +70,9 @@ def encrypt(original, shift):
 	output = []
 	crypt = []
 	
-	alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+	alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 
+		    'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 
+		    's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 	for letter in original.lower():
 		index = alphabet.index(letter)
@@ -73,14 +81,6 @@ def encrypt(original, shift):
 		result = alphabet[newIndex]
 		output.append(result)
 	return''.join (output)
-
-phrase = 'THEquickbrownfoxjumpsoverthelAZydog'
-shift = 13
-
-print('Original text:', phrase)
-print('Shift:', 13)
-code = encrypt(phrase, shift)
-print('Ciphered text:', code)
 ```
 Strings were used in my Scrambled Key projects to compare corresponding index values between the alphabet and a scrambled key:
 ```python
@@ -95,16 +95,9 @@ def encrypt(string):
             result = result + key[index]
     return result
 ```
-```
-• What makes your strongest piece different from your weakest piece?
-• What goals did you set for yourself? How well did you accomplish them?
-• Why did you select this piece of work?
-• What was particularly important to you during the process of creating this work?
-• How does this relate to what you have learned before?
-• Which piece would you most like to improve? Why?
-• What is the one thing you would like someone to notice about your portfolio? Why?
-• Do you feel that this collection of work really reflects your abilities and what you have achieved so far this year? Why or why not?
-```
+While each example effectively encrypts or decrypts a string, the use of strings allowed more flexibility in changing the key or accepting a user input of a key. Therefore, I found this code to be an improvement on the previous strategies. Because of this experience, I was able to include my improved code in later projects.
+
+Altogether, Python has proven to be a straightforward and easy-to-use programming languange. In my opinion, it is equally, if not more, versatile and comprehensive than prior languages I have learned. My most recent and strongest piece, my Password Manager, is different from weaker and older pieces because it contains code that has been improved upon over the course of learning more Python techniques. For this reason, I feel my earlier pieces can be improved and expanded upon.
 
 <p align="center">
   <a href="https://samcabano.github.io/cabano-profile/">Return to ABOUT ME</a>
